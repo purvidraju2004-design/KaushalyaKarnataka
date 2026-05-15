@@ -22,7 +22,11 @@ Kaushalya Karnataka is a real-time Android marketplace application designed to b
 4. Build and Run on a device with API 24+.
 
 ## 📸 Screenshots
-<img width="194" height="427" alt="image" src="https://github.com/user-attachments/assets/b3c4d693-f151-487f-b47c-5a03a2ffc3b0" />
-<img width="189" height="429" alt="image" src="https://github.com/user-attachments/assets/21198dc7-5dce-42c3-a135-b867777ca4f3" />
-<img width="191" height="428" alt="image" src="https://github.com/user-attachments/assets/c87d59f8-6566-490c-ae18-b0bc53360b94" />
+![Login Screen](<img width="194" height="429" alt="login" src="https://github.com/user-attachments/assets/d71ae1b7-0c7b-4533-af2a-bbdd5900c04d" />)
 
+
+![Home Worker Profile](<img width="388" height="850" alt="image" src="https://github.com/user-attachments/assets/7c2147fa-a0c8-49b9-92fe-8a22b29221cf" />
+)
+
+![Edit Profile](<img width="384" height="854" alt="image" src="https://github.com/user-attachments/assets/109c44fd-494f-408b-a3f1-f92fe721f836" />
+)
