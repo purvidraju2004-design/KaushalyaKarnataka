@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imgWorkerWork"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="centerCrop"
+            android:background="#E0E0E0" />
+
+        <TextView
+            android:id="@+id/tvWorkerName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Worker Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tvWorkerCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category (e.g., Electrician)"
+            android:textSize="14sp"
+            android:textColor="#757575"/>
+
+        <!-- NEW: The Specific Service Name -->
+        <TextView
+            android:id="@+id/tvWorkerService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service (e.g., Ceiling Fan Repair)"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#333333"
+            android:layout_marginTop="4dp"/>
+
+        <!-- The Description -->
+        <TextView
+            android:id="@+id/tvWorkerDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Service description goes here..."
+            android:textSize="14sp"
+            android:textStyle="italic"
+            android:textColor="#555555"
+            android:layout_marginTop="2dp"
+            android:maxLines="2"
+            android:ellipsize="end"/>
+
+        <TextView
+            android:id="@+id/tvWorkerPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Starting at: ₹200"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#388E3C"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tvRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="★ 4.5"
+            android:textColor="#FFB300"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:layout_marginTop="4dp"/>
+
+        <Button
+            android:id="@+id/btnHireMe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hire Me"
+            android:layout_marginTop="12dp"/>
+
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

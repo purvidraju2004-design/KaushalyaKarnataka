@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#F5F5F5">
+
+    <!-- 1. The Logout Button (Moved to the Top Right) -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:backgroundTint="@android:color/holo_red_dark"
+        android:textColor="@android:color/white"
+        android:layout_alignParentEnd="true" />
+
+    <!-- 2. The Search Bar (Pushed down below the Logout button) -->
+    <EditText
+        android:id="@+id/searchBar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Search category (e.g., Electrician)"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background"
+        android:inputType="text"
+        android:layout_below="@id/btnLogout" />
+
+    <!-- 3. The Worker List -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewWorkers"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/searchBar"
+        android:layout_marginTop="16dp" />
+
+    <!-- 4. The Add Worker Button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddWorker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_input_add"
+        app:tint="#FFFFFF" />
+
+</RelativeLayout>
